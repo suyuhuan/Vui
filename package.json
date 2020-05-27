@@ -14,10 +14,13 @@
     "vue",
     "ui"
   ],
-  "author": "susan",
+  "author": "SUYUHUAN",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/suyuhuan/Vui/issues"
   },
-  "homepage": "https://github.com/suyuhuan/Vui#readme"
+  "homepage": "https://github.com/suyuhuan/Vui#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }
