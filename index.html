@@ -42,11 +42,24 @@
             outline: none;
         }
     </style> -->
+    <style>
+        /* .icon{width: 1em; height: 1em;} */
+    </style>
 </head>
 <body>
     <div id="app">
-        <v-button></v-button>
+        <v-button :loading="loading1" @click="loading1 = !loading1" icon="i-setting" icon-position="right">提交</v-button>
+        <v-button :loading="true" icon="i-setting">提交</v-button>
+        <v-icon name="i-download"></v-icon>
+        <v-icon name="i-loading"></v-icon>
+        <v-button-group>
+            <v-button icon-position="left" icon="i-left">上一页</v-button>
+            <v-button>1</v-button>
+            <v-button>更多</v-button>
+            <v-button icon-position="right" icon="i-right">下一页</v-button>
+        </v-button-group>
     </div>
    <script src="./src/app.js"></script>
+   <script src="//at.alicdn.com/t/font_1847135_bycrjekqpwh.js"></script>
 </body>
 </html>
